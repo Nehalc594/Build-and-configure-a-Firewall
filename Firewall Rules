@@ -1,0 +1,5 @@
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow from 192.168.1.0/24
+sudo ufw deny 23/tcp
